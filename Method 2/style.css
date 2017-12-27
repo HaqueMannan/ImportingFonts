@@ -1,0 +1,25 @@
+.fix-button{
+   background-color: #333;
+   color: #fff;
+   padding: 10px 15px;
+   border: none;
+}
+/* Add a hover status effect to the button */
+.fix-button:hover{
+   background-color: red;
+   color: #fff;
+}
+
+   #P1{
+      font-size: 20px;
+      color: brown;
+      font-family: 'Indie Flower', cursive;
+   }
+
+   #P2{
+      font-size: 20px;
+      color: blueviolet;
+      font-family: 'Spectral SC', serif;
+      font-weight: 700;
+      font-style: italic;
+   }

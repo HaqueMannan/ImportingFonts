@@ -1,0 +1,26 @@
+/*Important note: it is good practice to name files without spaces i.e. use - or camelcase otherwise when referencing a link src we must use "" as seen below otherwise the browser will not read the code properly.
+
+@font-face should always be at the top of the CSS as the browser reads from top to bottom. */
+
+@font-face{
+   src: url("Fonts/Sweet Sensations Personal Use.ttf");
+   font-family: "sweetSensation";
+}
+
+   .fix-button{
+      background-color: #333;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+   }
+   /* Add a hover status effect to the button */
+   .fix-button:hover{
+      background-color: red;
+      color: #fff;
+   }
+
+   #P1{
+      font-size: 20px;
+      color: brown;
+      font-family: "sweetSensation";
+   }
